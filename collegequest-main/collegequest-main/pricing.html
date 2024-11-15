@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+        body{margin-top:20px;}
+ .pricing-content{}
+.single-pricing{
+background:#fff;
+padding:40px 20px;
+border-radius:5px;
+position:relative;
+z-index:2;
+border:1px solid #eee;
+box-shadow: 0 10px 40px -10px rgba(0,64,128,.09);
+transition:0.3s;
+}
+@media only screen and (max-width:480px) { 
+.single-pricing {margin-bottom:30px;}
+}
+.single-pricing:hover{
+box-shadow:0px 60px 60px rgba(0,0,0,0.1);
+z-index:100;
+transform: translate(0, -10px);
+}
+.price-label {
+    color: #fff;
+	background: #176B87;
+	font-size: 16px;
+	width: 100px;
+	margin-bottom: 15px;
+	display: block;
+	-webkit-clip-path: polygon(100% 0%, 90% 50%, 100% 100%, 0% 100%, 0 50%, 0% 0%);
+	clip-path: polygon(100% 0%, 90% 50%, 100% 100%, 0% 100%, 0 50%, 0% 0%);
+	margin-left: -20px;
+	position: absolute;
+}
+.price-head h2 {
+	font-weight: 600;
+	margin-bottom: 0px;
+	text-transform: capitalize;
+	font-size: 26px;
+}
+.price-head span {
+	display: inline-block;
+	background:#176B87;
+	width: 6px;
+	height: 6px;
+	border-radius: 30px;
+	margin-bottom: 20px;
+	margin-top: 15px;
+}
+.price {
+	font-weight: 500;
+	font-size: 50px;
+	margin-bottom: 0px;
+}
+.single-pricing{}
+.single-pricing h5 {
+	font-size: 14px;
+	margin-bottom: 0px;
+	text-transform: uppercase;
+}
+.single-pricing ul{
+margin-bottom: 20px;
+margin-top: 30px;
+}
+
+.single-pricing ul li{line-height: 35px;}
+.single-pricing a {
+background:none;
+border: 2px solid #176B87;
+border-radius: 5000px;
+color: #176B87;
+display: inline-block;
+font-size: 16px;
+overflow: hidden;
+padding:10px 45px;
+text-transform: capitalize;
+transition: all 0.3s ease 0s;
+}
+.single-pricing a:hover, .single-pricing a:focus{
+background:#176B87;
+color:#fff;
+border: 2px solid #176B87;
+}
+.single-pricing-white{background:#001C30}
+.single-pricing-white ul li{color:#fff;}
+.single-pricing-white h2{color:#fff;}
+.single-pricing-white h1{color:#fff;}
+.single-pricing-white h5{color:#fff;}
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          <img src="./logo.png" width="150" height="50">
+         </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="./home.html">Home <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pricing.html">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./mentor.html">Mentor</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <section id="pricing" class="pricing-content section-padding">
+        <div class="container">					
+            <div class="section-title text-center">
+                <h1><b>Pricing Plan</b></h1>
+            </div>					
+            <div class="row text-center">									
+                <div class="col-lg-4 col-sm-4 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s" data-wow-offset="0">
+                    <div class="single-pricing">
+                        <div class="price-head">								
+                            <h2>Starter</h2>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <h1 class="price">₹1000</h1>
+                        <h5>Validity:1 month</h5>
+                        <ul>
+                            <li>Regular live sessions with Counsellors from TOP 3 tier Colleges to answer all your queries.</li>
+                            <li>1:1 video Support for you day-to-day doubts.</li>
+                            <li>Keeps you updated with all Notices and Deadlines.</li>
+                            <li>Best Handcrafted Preference List for EAMCET Counselling.</li>
+                        </ul>
+                        <a href="./payment.html">Get start</a>
+                    </div>
+                </div><!--- END COL -->	
+                <div class="col-lg-4 col-sm-4 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">
+                    <div class="single-pricing">
+                        <div class="price-head">								
+                            <h2>popular</h2>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <h1 class="price">₹1500</h1>
+                        <h5>(Until the end of counselling)</h5>
+                        <ul>
+                            
+                            <li>Regular live 1:1 sessions to answer all your queries.</li>
+                            <li>Live sessions explaining all Notices and Circulars released by different Counselling Boards.</li>
+                            <li>Regular live sessions with counsellors from Tier 2 colleges to answer all your queries.</li>
+                            
+                        </ul>
+                        <br/>
+                        <a href="./payment.html">Get start</a>
+                    </div>
+                </div><!--- END COL -->	
+                <div class="col-lg-4 col-sm-4 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s" data-wow-offset="0">
+                    <div class="single-pricing single-pricing-white">
+                        <div class="price-head">								
+                            <h2>Premium</h2>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <span class="price-label">Best</span>
+                        <h1 class="price">₹2000</h1>
+                        <h5>(Until the end of counselling)</h5>
+                        <ul>
+                            <li>Counsellors from Top IITs,BITS, NITs and IIITs</li>
+                            <li>Daily Live Sessions to Answer all your Queries</li>
+                            <li>Support throughout the counselling period</li>
+                            <li>Keeps you updated with all Notices and Deadlines</li>
+                            
+                        </ul>
+                        <a href="./payment.html">Get start</a>
+                    </div>
+                </div><!--- END COL -->			  
+            </div><!--- END ROW -->
+        </div><!--- END CONTAINER -->
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DETAILS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+        body{
+            background-color:#DAFFFB;
+        }
+        /* header{ 
+            text-align:center;
+            font-family: 'Libre Baskerville', serif;
+            font-weight:bold;
+            font-size:30px;
+            color:#001C30;
+       } */
+        /* .details{
+            margin-left: 45%;
+        } */
+        /* .whole
+        {
+            margin-left: 100px;
+        } */
+        input[type=text] {
+            border:2px solid #176B87;
+        }
+        input[type=number] {
+            border:2px solid #176B87;
+        }
+        input[type=submit]{
+        background-color:#176B87;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+        }
+        #upper1
+        {
+          margin-left: 10%;
+          margin-top: 4%;
+          display: inline-block;
+        }
+        #textinp{
+          display: inline-block;
+          margin-bottom: 30px;
+          height: 50px;
+          width: 300px;
+          border-radius: 30px;
+          text-align: center;
+        }
+        #upper-whole
+        {
+          display: flex;
+        }
+        #upper2
+        {
+          width: 350px;
+          margin-top: 5%;
+          margin-left: 12%;
+        }
+        #Caste_
+        {
+          display: flex;
+          margin-bottom: 18px;
+        }
+        #options
+        {
+          margin-left:12%;
+          /* width: 150px;
+          border-radius: 10px; */
+        }
+        #disab
+        {
+          display: flex;
+        }
+        #optionsdisab
+        {
+          margin-left: 8%;
+        }
+        #status
+        {
+          display: flex;
+        }
+        #optionsstatus
+        {
+          margin-left: 12%;
+        }
+        #lower
+        {
+          display: flex;
+          margin-left: 25%;
+        }
+        #options-checkbox
+        {
+          text-align: left;
+          margin-left: 0px;
+          font-size: 20px;
+        }
+        #whole
+        {
+          align-items: center;
+        }
+        #submitbtn
+        {
+          margin-left:40%;
+          border-radius: 8px;
+          padding: 15px;
+          cursor: pointer;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Playfair+Display:wght@900&display=swap" rel="stylesheet">
+</head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">
+            <img src="./logo.png" width="150" height="50">
+           </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="./home.html">Home <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./pricing.html">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./mentor.html">Mentor</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contact.html">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        <div class="details">
+        <div id="whole">
+          <form>
+            <div id="outer-div1">
+              <div id="upper-whole">
+                <div id="upper1">
+                  <input type="text" placeholder="Name" id="textinp"><br>
+                  <input type="number" placeholder="Hall Ticket No." id="textinp"><br>
+                  <input type="number" placeholder="Rank" id="textinp"><br>
+                 </div>
+                 <br/>
+                 <div id="upper2">
+                   <div id="gender" style="margin-bottom: 1px;">
+                    <h5 style="display: inline-block; margin-right: 10%;">Gender</h5>
+                    <input type="radio" value="Male" name="Gender" >Male
+                    <input type="radio" value="Female" name="Gender">Female
+                   </div>
+                   <br/>
+                   <div id="Caste_">
+                      <h5>Select Caste:</h5>
+                      <div id="options">
+                        <select name="caste">
+                          <option value="OC">OC</option>
+                          <option value="BC">BC</option>
+                          <option value="SC">SC</option>
+                          <option value="ST">ST</option>
+                          <option value="OBC">OBC</option>
+                        </select>
+                      </div>
+                   </div>
+                   <div id="disab">
+                    <h5>Any disabilities(PWD)?</h5>
+                    <div id="optionsdisab">
+                      <input type="radio" value="Yes" name="PWD">Yes
+                      <input type="radio" value="No" name="PWD">No
+                    </div>
+                    <br/><br/>
+                   </div>
+                   <div id="status">
+                    <h5>Status:</h5>
+                    <div id="optionsstatus">
+                        <input type="radio" value="local" name="PWD">local
+                        <input type="radio" value="non-local" name="PWD">non-local
+                    </div>
+                   </div>
+                 </div>
+              </div>
+              <br/><br/>
+              <div id="lower">
+                <h4 style="padding-right: 20px;">Tick if eligible:</h4>
+                <div id="options-checkbox">
+                  <input type="checkbox" id="Sports" name="Sports" value="Sports quota"/>   
+                <label>Sports quota</label> <br/>
+                <input type="checkbox" id="EWS" name="EWS" value="EWS"/>    
+                      <label>EWS</label> <br/>
+                      <input type="checkbox" id="Defence" name="Defence" value="Defence"/>    
+                    <label>Defence</label> <br/>
+                      <input type="checkbox" id="NCC" name="NCC" value="NCC"/>    
+                      <label>NCC</label> <br/>
+                </div>
+              </div>
+              <input type="submit" id="submitbtn">
+            </div>
+            
+         </form>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 60px;
+    background-color: #001C30;
+    text-decoration: none;
+}
+#member
+{
+    text-decoration: none;
+    margin-right: 50px;
+    color: white;
+    margin-bottom: 25px;
+    font-family: sans-serif;
+    text-decoration: none 
+    
+}
+#main-member
+{
+    margin-right: 300px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+    
+}
+#btn
+{
+    margin-left: 300px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    border-radius: 12px;
+    font-family: sans-serif;
+    background-color: #DAFFFB;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(.22, .61, .36, 1);
+    touch-action: manipulation;
+}
+#center1
+{
+    height: 600px;
+    background-image: url(bg.png
+);
+    background-size: cover;
+}
+#main-heading
+{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 130px;
+    font-size: 70px;
+    font-family:sans-serif;
+    color: #176B87;
+}
+#main-heading1
+{
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 130px;
+    font-size: 70px;
+    font-family: sans-serif;
+    color: #176B87;
+}
+#heading-center
+{
+    display: inline-block;
+}
+#intro
+{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 730px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight:400;
+    color: #176B87;
+}
+#heading-middle
+{
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #001C30;
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 255px;
+}
+.button-66 {
+    background-color: #176B87;
+    border-radius: 7px;
+    border: 0;
+    box-shadow: rgba(1,60,136,.5) 0 -1px 3px 0 inset,rgba(0,44,97,.1) 0 3px 6px 0;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    display: inherit;
+    font-family: "Space Grotesk",-apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 370px;
+    margin-left: 45%;
+    min-height: 56px;
+    min-width: 120px;
+    padding: 16px 20px;
+    position: relative;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    transition: all .2s cubic-bezier(.22, .61, .36, 1);
+  }
+  .button-66:hover {
+    background-color: #DAFFFB;
+    transform: translateY(-2px);
+  }
+  #btn:hover
+  {
+    transform: translate3d(0px,2px,5px);
+  }
